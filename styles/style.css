@@ -13,4 +13,35 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--font-main), sans-serif;
+  font-variation-settings: var(--font-weight-normal);
+  background-image: var(--background-gradient);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: #fff;
+  width: var(--width-clamp);
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem) 0;
+  font-family: 'PressStart2P', monospace;
+  gap: 20px;
+  border: 2px solid #000;
+}
+
+.header__logo {
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+}
+
+.header__text {
+  text-transform: uppercase;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 }
