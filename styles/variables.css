@@ -8,6 +8,8 @@
   --stroke-color: #fff;
   --text-color: #fff;
   --accent-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: #FF0000;
   --background-gradient:
   repeating-linear-gradient(
       to right,
