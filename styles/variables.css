@@ -6,6 +6,8 @@
   --font-weight-bold: 715;
   --width-clamp: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
   --stroke-color: #fff;
+  --text-color: #fff;
+  --accent-color: #000;
   --background-gradient:
   repeating-linear-gradient(
       to right,
