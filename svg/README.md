@@ -1,3 +1,1 @@
-Проектная работа №4
-"Закрывающий тег"
-https://github.com/Alexey-Kuznetsov-1/zakrivayuschiy-teg-f.git
+В этой папке будут храниться все необходимые SVG-файлы для сайта.
